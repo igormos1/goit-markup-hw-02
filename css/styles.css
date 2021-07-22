@@ -8,10 +8,10 @@
 a {
   text-decoration: none;
 }
-
-.list {
+ul {
   list-style: none;
 }
+
 body {
   font-family: Roboto;
   background-color: #e5e5e5;
@@ -21,6 +21,14 @@ body {
 
 .logo {
   color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
@@ -31,7 +39,12 @@ body {
   letter-spacing: 0.03em;
   font-size: 26px;
 }
-
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -97,16 +110,37 @@ body {
 .button-first {
   background-color: var(--accent-color);
   color: var(--line-color);
-  cursor: pointer;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
 }
 
+.exempl {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.category {
+  color: var(--tittle-text-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
 .button-second {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-second:hover {
   color: var(--accent-color);
@@ -159,19 +193,26 @@ body {
 }
 .adres-line {
   color: var(--line-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+
+  letter-spacing: 0.03em;
 }
 .studio-footter {
   color: var(--line-color);
 }
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
 
-.mail-footer {
-  color: var(--tittle-text-color);
-}
-.contacts-footer {
-  list-style: none;
-}
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
