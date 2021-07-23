@@ -110,10 +110,13 @@ body {
 .button-first {
   background-color: var(--accent-color);
   color: var(--line-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .exempl {
@@ -136,6 +139,8 @@ body {
 .button-second {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
